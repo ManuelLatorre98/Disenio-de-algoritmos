@@ -20,6 +20,7 @@ public class Main {
 
     heap3.insert(11);*/
 
+    //Ejemplo decrease key de la pagina
     heap2.insert(5);
     heap2.insert(17);
     heap2.insert(18);
@@ -31,5 +32,7 @@ public class Main {
     NodeTree veinte= heap2.search(20);
     heap2.decreaseKey(veinte,7);
     heap2.print();
+
+
   }
 }

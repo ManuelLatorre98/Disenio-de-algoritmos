@@ -12,20 +12,26 @@ public class BinomialHeap {
     this.head = head;
   }
 
+  //Verifica si el arbol esta vacio
   public boolean isEmpty() {//O(1)
     return head == null;
   }
 
+  //Vacia el arbol
   public void clear() {//O(1)
     head = null;
   }
 
+/* Crea un nuevo heap con el elemento parametro y luego
+* lo combina usando la operacion de union*/
   public void insert(Object elem) {
     NodeTree node= new NodeTree(elem);
     BinomialHeap tempHeap= new BinomialHeap(node);
     head = union(tempHeap);
   }
 
+  /*Itera a traves de las raices de cada arbol del heap buscando
+  * el minimo*/
   public Object findMinimum() {//O(N)
     Object minimum;
     if(head == null) {
@@ -45,6 +51,7 @@ public class BinomialHeap {
     return minimum;
   }
 
+  /*Busca y devuelve el nodo con el elemento parametro*/
   public NodeTree search(Object elem) {
     NodeTree nodeSearched = null;
     List<NodeTree> nodes= new ArrayList<NodeTree>();
@@ -65,14 +72,15 @@ public class BinomialHeap {
     return nodeSearched;
   }
 
-  /*Decrease key reduces the specified node’s key
-   * and then bubbles it up through its ancestors until the
-   * tree meets the conditions of a heap */
+  /*Reduce el valor del nodo especificado y lo hace "flotar" hacia
+  * arriba atraves de sus ancestos hasta que el arbol cumple condicion
+  * de heap */
   public void decreaseKey(NodeTree node, Object newElem) {
     node.setElem(newElem);
     bubbleUp(node, false);
   }
 
+  /*Elimina el nodo pasado por parametro*/
   public void delete(NodeTree node) {
     node = bubbleUp(node,true);
     if(head == node) {
@@ -153,6 +161,8 @@ public class BinomialHeap {
     minNodeTree.setDegree(minNodeTree.getDegree()+1); //Increments in 1 the degree
   }
 
+  /*Fusiona los 2 heaps combinando continuamente arboles del mismo
+  * orden hasta que no existan dos arboles del mismo orden  */
   public NodeTree union(BinomialHeap heap) {
     NodeTree newHead = merge(this, heap);
 

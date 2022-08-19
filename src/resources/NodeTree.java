@@ -3,7 +3,7 @@ package resources;
 public class NodeTree implements Comparable<NodeTree> {
   private Object elem;
   private NodeTree child;
-  private NodeTree Sibling;
+  private NodeTree sibling;
   private NodeTree parent;
   private int degree;
 
@@ -23,7 +23,7 @@ public class NodeTree implements Comparable<NodeTree> {
   }
 
   public NodeTree getSibling() {
-    return this.Sibling;
+    return this.sibling;
   }
 
   public int getDegree() {
@@ -47,8 +47,8 @@ public class NodeTree implements Comparable<NodeTree> {
   }
 
 
-  public void setSibling(NodeTree Sibling) {
-    this.Sibling = Sibling;
+  public void setSibling(NodeTree sibling) {
+    this.sibling = sibling;
   }
 
   @Override
