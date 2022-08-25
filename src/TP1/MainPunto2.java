@@ -68,7 +68,7 @@ public class MainPunto2 {
       System.out.println(sets[i]);
     }
   }
-  /*recibe a ordered set of elements to be created*/
+  /*receive an ordered set of elements to be created*/
   public static void insertSet(int [] elems, int[] set){
     int elemA=elems[0]; //The min element is always the first
     int tagA = search(elemA, set);

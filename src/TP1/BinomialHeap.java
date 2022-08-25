@@ -5,10 +5,10 @@ import java.util.List;
 
 import resources.NodeTree;
 
-public class BinomialHeap {
-  private NodeTree head;
+public class BinomialHeap <T extends Comparable<T>> {
+  private NodeTree<T> head;
 
-  public BinomialHeap(NodeTree head) {
+  public BinomialHeap(NodeTree<T> head) {
     this.head = head;
   }
 
@@ -24,9 +24,9 @@ public class BinomialHeap {
 
 /* Crea un nuevo heap con el elemento parametro y luego
 * lo combina usando la operacion de union*/
-  public void insert(Object elem) {
-    NodeTree node= new NodeTree(elem);
-    BinomialHeap tempHeap= new BinomialHeap(node);
+  public void insert(T elem) {
+    NodeTree<T> node= new NodeTree<T>(elem);
+    BinomialHeap<T> tempHeap= new BinomialHeap<T>(node);
     head = union(tempHeap);
   }
 
@@ -37,8 +37,8 @@ public class BinomialHeap {
     if(head == null) {
       minimum = null;
     }else {
-      NodeTree min= head;
-      NodeTree next= min.getSibling();
+      NodeTree<T> min= head;
+      NodeTree<T> next= min.getSibling();
 
       while(next != null) {
         if (next.compareTo(min)<0) {
@@ -52,12 +52,12 @@ public class BinomialHeap {
   }
 
   /*Busca y devuelve el nodo con el elemento parametro*/
-  public NodeTree search(Object elem) {
-    NodeTree nodeSearched = null;
-    List<NodeTree> nodes= new ArrayList<NodeTree>();
+  public NodeTree<T> search(T elem) {
+    NodeTree<T> nodeSearched = null;
+    List<NodeTree<T>> nodes= new ArrayList<NodeTree<T>>();
     nodes.add(head); //Adds head to list
     while(!nodes.isEmpty()) {
-      NodeTree curr = nodes.get(0);
+      NodeTree<T> curr = nodes.get(0);
       nodes.remove(0);
       if(curr.getElem() == elem) {
         nodeSearched = curr;
@@ -75,18 +75,18 @@ public class BinomialHeap {
   /*Reduce el valor del nodo especificado y lo hace "flotar" hacia
   * arriba atraves de sus ancestos hasta que el arbol cumple condicion
   * de heap */
-  public void decreaseKey(NodeTree node, Object newElem) {
+  public void decreaseKey(NodeTree<T> node, T newElem) {
     node.setElem(newElem);
     bubbleUp(node, false);
   }
 
   /*Elimina el nodo pasado por parametro*/
-  public void delete(NodeTree node) {
+  public void delete(NodeTree<T> node) {
     node = bubbleUp(node,true);
     if(head == node) {
       removeTreeRoot(node,null);
     }else {
-      NodeTree prev = head;
+      NodeTree<T> prev = head;
       while(prev.getSibling().compareTo(node) != 0) {
         prev = prev.getSibling();
       }
@@ -94,10 +94,10 @@ public class BinomialHeap {
     }
   }
 
-  private NodeTree bubbleUp(NodeTree node, boolean toRoot) {
-    NodeTree parent = node.getParent();
+  private NodeTree<T> bubbleUp(NodeTree<T> node, boolean toRoot) {
+    NodeTree<T> parent = node.getParent();
     while(parent != null && (toRoot || node.compareTo(parent)<0)) {
-      Object temp = node.getElem();
+      T temp = node.getElem();
       node.setElem(parent.getElem());
       parent.setElem(temp);
       node = parent;
@@ -106,15 +106,15 @@ public class BinomialHeap {
     return node;
   }
 
-  public Object extractMin() {
-    Object minimum;
+  public T extractMin() {
+    T minimum;
     if(head == null) {
       minimum= null;
     }else {
-      NodeTree min = head;
-      NodeTree minPrev = null;
-      NodeTree next = min.getSibling();
-      NodeTree nextPrev = min;
+      NodeTree<T> min = head;
+      NodeTree<T> minPrev = null;
+      NodeTree<T> next = min.getSibling();
+      NodeTree<T> nextPrev = min;
 
       while(next != null) {
         if(next.compareTo(min) < 0) {
@@ -130,7 +130,7 @@ public class BinomialHeap {
     return minimum;
   }
 
-  private void removeTreeRoot(NodeTree root, NodeTree prev) {
+  private void removeTreeRoot(NodeTree<T> root, NodeTree<T> prev) {
     //Removes root from the heap
     if(root == head) {
       head = root.getSibling();
@@ -139,22 +139,22 @@ public class BinomialHeap {
     }
 
     //Reverse the order of roots children and make a new heap
-    NodeTree newHead = null;
-    NodeTree child = root.getChild();
+    NodeTree<T> newHead = null;
+    NodeTree<T> child = root.getChild();
     while(child != null) {
-      NodeTree next = child.getSibling();
+      NodeTree<T> next = child.getSibling();
       child.setSibling(newHead);
       child.setParent(null);
       newHead = child;
       child = next;
     }
-    BinomialHeap newHeap = new BinomialHeap(newHead);
+    BinomialHeap<T> newHeap = new BinomialHeap<T>(newHead);
 
     //Union the heaps and set its head as this.head
     head = union(newHeap);
   }
 
-  private void linkTree(NodeTree minNodeTree, NodeTree other) {
+  private void linkTree(NodeTree<T> minNodeTree, NodeTree<T> other) {
     other.setParent(minNodeTree);
     other.setSibling(minNodeTree.getChild());
     minNodeTree.setChild(other);
@@ -163,17 +163,16 @@ public class BinomialHeap {
 
   /*Fusiona los 2 heaps combinando continuamente arboles del mismo
   * orden hasta que no existan dos arboles del mismo orden  */
-  public NodeTree union(BinomialHeap heap) {
-    NodeTree newHead = merge(this, heap);
-
+  public NodeTree<T> union(BinomialHeap<T> heap) {
+    NodeTree<T> newHead = merge(this, heap);
     head = null;
     heap.head = null;
     if(newHead == null) {
       newHead=null;
     }else {
-      NodeTree prev = null;
-      NodeTree curr = newHead;
-      NodeTree next = newHead.getSibling();
+      NodeTree<T> prev = null;
+      NodeTree<T> curr = newHead;
+      NodeTree<T> next = newHead.getSibling();
 
       while(next != null) {
         if(curr.getDegree() != next.getDegree() ||
@@ -201,16 +200,16 @@ public class BinomialHeap {
     return newHead;
   }
 
-  private NodeTree merge(BinomialHeap heap1, BinomialHeap heap2) {
-    NodeTree newHead;
+  private NodeTree<T> merge(BinomialHeap<T> heap1, BinomialHeap<T> heap2) {
+    NodeTree<T> newHead;
     if(heap1.head == null){
       newHead = heap2.head;
     }else if(heap2.head == null){
       newHead = heap1.head;
     }else{
-      NodeTree head;
-      NodeTree heap1Next = heap1.head;
-      NodeTree heap2Next = heap2.head;
+      NodeTree<T> head;
+      NodeTree<T> heap1Next = heap1.head;
+      NodeTree<T> heap2Next = heap2.head;
 
       if(heap1.head.getDegree() <= heap2.head.getDegree()) {
         head = heap1.head;
@@ -220,7 +219,7 @@ public class BinomialHeap {
         heap2Next = heap2Next.getSibling();
       }
 
-      NodeTree tail = head;
+      NodeTree<T> tail = head;
       while(heap1Next != null && heap2Next != null){
         if(heap1Next.getDegree() <= heap2Next.getDegree()){
           tail.setSibling(heap1Next);

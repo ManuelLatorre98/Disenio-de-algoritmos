@@ -1,28 +1,28 @@
 package resources;
 
-public class NodeTree implements Comparable<NodeTree> {
-  private Object elem;
-  private NodeTree child;
-  private NodeTree sibling;
-  private NodeTree parent;
+public class NodeTree <T extends Comparable<T>> implements Comparable<NodeTree<T>> {
+  private T elem;
+  private NodeTree<T> child;
+  private NodeTree<T> sibling;
+  private NodeTree<T> parent;
   private int degree;
 
-  public NodeTree(Object elem) {
+  public NodeTree(T elem) {
     this.elem = elem;
   }
 
-  public Object getElem() {
+  public T getElem() {
     return this.elem;
   }
 
-  public NodeTree getParent() {
+  public NodeTree<T> getParent() {
     return this.parent;
   }
-  public NodeTree getChild() {
+  public NodeTree<T> getChild() {
     return this.child;
   }
 
-  public NodeTree getSibling() {
+  public NodeTree<T> getSibling() {
     return this.sibling;
   }
 
@@ -30,15 +30,15 @@ public class NodeTree implements Comparable<NodeTree> {
     return this.degree;
   }
 
-  public void setElem(Object elem) {
+  public void setElem(T elem) {
     this.elem= elem;
   }
 
-  public void setParent(NodeTree parent) {
+  public void setParent(NodeTree<T> parent) {
     this.parent= parent;
   }
 
-  public void setChild(NodeTree child) {
+  public void setChild(NodeTree<T> child) {
     this.child= child;
   }
 
@@ -47,13 +47,13 @@ public class NodeTree implements Comparable<NodeTree> {
   }
 
 
-  public void setSibling(NodeTree sibling) {
+  public void setSibling(NodeTree<T> sibling) {
     this.sibling = sibling;
   }
 
   @Override
-  public int compareTo(NodeTree other) {
-    int compare=0;
+  public int compareTo(NodeTree<T> other) {
+    /*int compare=0;
     float count;
     System.out.println(other.elem instanceof Number );
     try {
@@ -77,12 +77,13 @@ public class NodeTree implements Comparable<NodeTree> {
       System.err.println(e.toString());
       System.exit(0);
     }
-    return compare;
+    return compare;*/
+    return this.elem.compareTo(other.elem);
   }
 
   public void print(int level) {
     String father, sib;
-    NodeTree curr = this;
+    NodeTree<T> curr = this;
     while(curr != null){
       father="";
       sib="";
