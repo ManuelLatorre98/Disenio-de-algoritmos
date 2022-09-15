@@ -23,7 +23,7 @@ public class MainPunto2 {
     }
   }
 
-  public static int search(int elem, int [] set){
+  public static int search(int elem, int [] set){ //Theta(1)
     int tag = -1;
     if(elem < set.length){
       tag = set[elem];
@@ -34,7 +34,7 @@ public class MainPunto2 {
     return tag;
   }
 
-  public static void join(int tagA, int tagB, int[]set){
+  public static void join(int tagA, int tagB, int[]set){//Theta(n)
     int min = Math.min(tagA, tagB);
     int max= Math.max(tagA, tagB);
 

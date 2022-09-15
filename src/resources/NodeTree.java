@@ -53,31 +53,6 @@ public class NodeTree <T extends Comparable<T>> implements Comparable<NodeTree<T
 
   @Override
   public int compareTo(NodeTree<T> other) {
-    /*int compare=0;
-    float count;
-    System.out.println(other.elem instanceof Number );
-    try {
-      if(this.elem instanceof Number && other.elem instanceof Number) {
-        count= ((Number)this.elem).floatValue() - ((Number)other.elem).floatValue();
-        if(count>0) {
-          compare= 1;
-        }else {
-          if(count<0) {
-            compare=-1;
-          }
-        }
-      }else {
-        if(this.elem instanceof String && other.elem instanceof String) {
-          compare= ((String)this.elem).compareTo((String)other.elem);
-        }else {
-          throw new RuntimeException("The nodes only can contain Numbers or Strings");
-        }
-      }
-    }catch(Exception e) {
-      System.err.println(e.toString());
-      System.exit(0);
-    }
-    return compare;*/
     return this.elem.compareTo(other.elem);
   }
 
@@ -105,5 +80,4 @@ public class NodeTree <T extends Comparable<T>> implements Comparable<NodeTree<T
       curr = curr.getSibling();
     }
   }
-
 }

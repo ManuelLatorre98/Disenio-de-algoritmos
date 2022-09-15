@@ -2,7 +2,6 @@ package TP1;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import resources.NodeTree;
 
 public class BinomialHeap <T extends Comparable<T>> {
