@@ -1,6 +1,6 @@
 package TP1;
 
-public class MainPunto2 {
+public class ConjuntosDisjuntos {
 
   public static void main(String[] args) {
     int[] universe = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; //SUPONEMOS ORDENADO MENOR A MAYOR
