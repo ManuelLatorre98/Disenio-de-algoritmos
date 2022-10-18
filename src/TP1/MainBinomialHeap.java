@@ -2,7 +2,7 @@ package TP1;
 
 import resources.NodeTree;
 
-public class Main<T extends Comparable<T>> {
+public class MainBinomialHeap<T extends Comparable<T>> {
   public static void main(String[] args) {
     NodeTree<Integer> head1= new NodeTree<Integer>(2);
     NodeTree<Integer> head2= new NodeTree<Integer>(3);
