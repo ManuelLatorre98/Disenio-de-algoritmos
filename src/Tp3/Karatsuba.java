@@ -1,4 +1,4 @@
-package TP1;
+package Tp3;
 
 public class Karatsuba {
   private String addStrings(String first, String second){
