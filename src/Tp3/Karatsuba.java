@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Karatsuba {
   public long multKaratsuba(long num1, long num2) {
-    // Si los números son lo suficientemente chicos los multiplico y retorno
+    // Si los números son lo suficientemente chicos los multiplica y retorna
     if (num1 < 10 && num2 < 10) {
       return num1 * num2;
     }
@@ -38,6 +38,7 @@ public class Karatsuba {
             ((xz + wy) * (long) Math.pow(10, halfMaxNumLength) + yz));
 
   }
+
   // Calcula la cantidad de dígitos
   public int numLength(long n) {
     return ((int) (Math.log10(n)+1));
