@@ -2,11 +2,11 @@ package Pruebas;
 
 public class Pruebas {
     public static void main(String[] args) {
-        int a=2;
-        double b=2.0;
-        if(a==1)
-            System.out.println("ey");
-            System.out.println("eo");
-
+        String cadena="0001";
+        int carry=0;
+        int firstBit = cadena.charAt(3) - '0';
+        int secondBit = cadena.charAt(2) - '0';
+        System.out.println(((firstBit ^ secondBit ^ carry)+'0'));
+        System.out.println((int) (Math.log10(123456789)+1));
     }
 }

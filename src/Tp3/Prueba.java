@@ -1,9 +1,10 @@
 package Tp3;
 
+import java.util.Random;
 import java.util.Scanner;
 
-public class Karatsuba {
-  public long multKaratsuba(long num1, long num2) {
+public class Prueba {
+  public static long multKaratsuba(long num1, long num2) {
     // Si los números son lo suficientemente chicos los multiplico y retorno
     if (num1 < 10 && num2 < 10) {
       return num1 * num2;
@@ -28,7 +29,8 @@ public class Karatsuba {
     long w = num2 / halfMaxNumLengthPowTen;
     long z = num2 % halfMaxNumLengthPowTen;
 
-    // Calcula los factores de la operación de manera recursiva
+
+    // Calcula los factores de la operacion de manera recursiva
     long xw = multKaratsuba(x, w);
     long xz = multKaratsuba(x, z);
     long wy = multKaratsuba(w, y);
@@ -38,9 +40,28 @@ public class Karatsuba {
             ((xz + wy) * (long) Math.pow(10, halfMaxNumLength) + yz));
 
   }
+
+
   // Calcula la cantidad de dígitos
-  public int numLength(long n) {
+  public static int numLength(long n) {
     return ((int) (Math.log10(n)+1));
   }
 
+  // Method 2
+  // Main driver function
+  public static void main(String[] args) {
+    long firstNumber, secondNumber;
+    Scanner in = new Scanner(System.in);
+    System.out.println("Ingrese primer numero");
+    firstNumber = in.nextLong();
+    System.out.println("Ingrese segundo numero");
+    secondNumber = in.nextLong();
+    in.close();
+
+    long expectedProduct = firstNumber * secondNumber;
+    long karatsubaProduct = multKaratsuba(firstNumber, secondNumber);
+
+    System.out.println("Esperado : " + expectedProduct);
+    System.out.println("Karatsuba : " + karatsubaProduct);
+  }
 }
