@@ -1,12 +1,16 @@
 package Pruebas;
 
+import java.util.Random;
+
 public class Pruebas {
     public static void main(String[] args) {
-        String cadena="0001";
+        String cadena="abc";
         int carry=0;
-        int firstBit = cadena.charAt(3) - '0';
-        int secondBit = cadena.charAt(2) - '0';
-        System.out.println(((firstBit ^ secondBit ^ carry)+'0'));
-        System.out.println((int) (Math.log10(123456789)+1));
+        int firstBit = cadena.charAt(0) - 'a';
+        int secondBit = cadena.charAt(1) - '0';
+        int i= 1/10;
+        System.out.println((char) (3+'A'-1));
+
+
     }
 }

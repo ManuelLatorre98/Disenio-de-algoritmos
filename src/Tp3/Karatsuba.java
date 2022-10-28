@@ -3,7 +3,7 @@ package Tp3;
 import java.util.Scanner;
 
 public class Karatsuba {
-  public long multKaratsuba(long num1, long num2) {
+  public long mult(long num1, long num2) {
     // Si los números son lo suficientemente chicos los multiplica y retorna
     if (num1 < 10 && num2 < 10) {
       return num1 * num2;
@@ -29,10 +29,10 @@ public class Karatsuba {
     long z = num2 % halfMaxNumLengthPowTen;
 
     // Calcula los factores de la operación de manera recursiva
-    long xw = multKaratsuba(x, w);
-    long xz = multKaratsuba(x, z);
-    long wy = multKaratsuba(w, y);
-    long yz = multKaratsuba(y, z);
+    long xw = mult(x, w);
+    long xz = mult(x, z);
+    long wy = mult(w, y);
+    long yz = mult(y, z);
 
     return (xw * (long) Math.pow(10, halfMaxNumLength * 2) +
             ((xz + wy) * (long) Math.pow(10, halfMaxNumLength) + yz));
@@ -43,5 +43,4 @@ public class Karatsuba {
   public int numLength(long n) {
     return ((int) (Math.log10(n)+1));
   }
-
 }
