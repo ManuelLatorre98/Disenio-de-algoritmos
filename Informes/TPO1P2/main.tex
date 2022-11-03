@@ -11,7 +11,8 @@
     }
 \usepackage{graphicx}
 \usepackage[sorting=none]{biblatex} %Imports biblatex package
-\addbibresource{biblio.bib} %Import the bibliography file
+\addbibresource{bibliography.bib} %Import the bibliography file
+
 
 \usepackage[breakable]{tcolorbox}
 \usepackage{enumerate}
@@ -72,7 +73,6 @@
 \SetSymbolFont{operators}{sans}{OT1}{cmbr}{m}{n}
 \SetSymbolFont{letters}  {sans}{OML}{cmbrm}{m}{it}
 \SetSymbolFont{symbols}  {sans}{OMS}{cmbrs}{m}{n}
-
 \lstnewenvironment{sflisting}[1][]
   {\lstset{#1}\mathversion{sans}}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,6 +81,9 @@
 \begin{document}
 \input{caratula}
 \input{punto1.tex}
+\input{punto2.tex}
+\input{punto3.tex}
 
+\clearpage
 \printbibliography
 \end{document}

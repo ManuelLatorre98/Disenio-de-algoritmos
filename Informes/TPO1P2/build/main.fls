@@ -1287,11 +1287,62 @@ INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mnsymbol\MnS
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy8.tfm
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\wasy\wasy6.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\punto2.tex
+INPUT punto2.tex
+INPUT .\punto2.tex
+INPUT punto2.tex
+INPUT .\Images\Punto2\Horspool Tabla.png
+INPUT .\Images\Punto2\Horspool Tabla.png
+INPUT Images\Punto2\Horspool Tabla.png
+INPUT .\Images\Punto2\Horspool Tabla.png
+INPUT .\Images\Punto2\Horspool Tabla.png
+INPUT .\Images\Punto2\Horspool Tabla.png
+INPUT .\Images\Punto2\Horspool Tabla.png
+INPUT .\Images\Punto2\Horspool traza.png
+INPUT .\Images\Punto2\Horspool traza.png
+INPUT Images\Punto2\Horspool traza.png
+INPUT .\Images\Punto2\Horspool traza.png
+INPUT .\Images\Punto2\Horspool traza.png
+INPUT .\Images\Punto2\Horspool traza.png
+INPUT .\Images\Punto2\Horspool traza.png
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\punto3.tex
+INPUT punto3.tex
+INPUT .\punto3.tex
+INPUT punto3.tex
+INPUT .\Images\Punto3\ConsolaHashPalabra.png
+INPUT .\Images\Punto3\ConsolaHashPalabra.png
+INPUT Images\Punto3\ConsolaHashPalabra.png
+INPUT .\Images\Punto3\ConsolaHashPalabra.png
+INPUT .\Images\Punto3\ConsolaHashPalabra.png
+INPUT .\Images\Punto3\ConsolaHashPalabra.png
+INPUT .\Images\Punto3\ConsolaHashPalabra.png
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.aux
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.out
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.out
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.run.xml
 OUTPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.run.xml
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\mnsymbol\MnSymbolE.enc
+INPUT C:\Users\manul\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\manul\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\mnsymbol\MnSymbolD.enc
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\mnsymbol\MnSymbol12.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\mnsymbol\MnSymbol12.pfb
@@ -1299,7 +1350,17 @@ INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
