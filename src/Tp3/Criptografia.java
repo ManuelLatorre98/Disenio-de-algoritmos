@@ -81,6 +81,7 @@ public class Criptografia {
   public static String decryptMessage(String w, long e, long pk){
     ExpoMod expoMod = new ExpoMod();
     long y=stringToNumber(w);
+    System.out.println("pum");
     long d= expoMod.exponent(e, -1, pk);
     //long decrypt= expoMod.exponent(y, d, pk);
     System.out.println(d);
