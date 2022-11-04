@@ -22,8 +22,8 @@ El método implementado lee el texto que se encuentra en un archivo \path{.txt},
  \end{lstlisting}
  \label{fig:Traza ordenamiento por conteo}
 
- \begin{lstlisting}[style=java, caption= Metodo readAndHash]
-  public static void readAndHash(Hashtable<String,Integer> hashWords()) throws IOException {
+ \begin{lstlisting}[style=java, caption= Metodo readAndHash()\cite{readAndHashMetodo}]
+  public static void readAndHash(Hashtable<String,Integer> hashWords) throws IOException {
     String filePath = "src\\T1P2\\texto.txt";
     File file = new File(filePath);
     BufferedReader br = new BufferedReader(new FileReader(file));
@@ -31,7 +31,7 @@ El método implementado lee el texto que se encuentra en un archivo \path{.txt},
     String [] words =null;
     int lenghtArrayOfWords;
 
-    while((st = br.readLine())!=null){//Continua mientras tenga lineas por leer, voy linea por linea
+    while((st = br.readLine())!=null){//Continua mientras tenga lineas por leer, va linea por linea
       words = st.split(" "); //Genera array de palabras separadas por espacios
       Arrays.stream(words).map(word -> word.toLowerCase()); //Convierte a minusculas las mayusculas
       lenghtArrayOfWords = words.length;
