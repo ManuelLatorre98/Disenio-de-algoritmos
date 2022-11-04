@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  4 NOV 2022 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  4 NOV 2022 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1119,12 +1119,12 @@ File: Images/Punto4/Arbol1.png Graphic file (type png)
 <use Images/Punto4/Arbol1.png>
 Package pdftex.def Info: Images/Punto4/Arbol1.png  used on input line 8.
 (pdftex.def)             Requested size: 1270.7444pt x 613.5407pt.
-<Images/Punto4/Arbol2.png, id=153, 1288.0622pt x 613.54219pt>
+<Images/Punto4/Arbol2.png, id=155, 1288.0622pt x 613.54219pt>
 File: Images/Punto4/Arbol2.png Graphic file (type png)
 <use Images/Punto4/Arbol2.png>
 Package pdftex.def Info: Images/Punto4/Arbol2.png  used on input line 15.
 (pdftex.def)             Requested size: 1288.05905pt x 613.5407pt.
-<Images/Punto4/Arbol3.png, id=154, 1401.73688pt x 288.3272pt>
+<Images/Punto4/Arbol3.png, id=158, 1401.73688pt x 288.3272pt>
 File: Images/Punto4/Arbol3.png Graphic file (type png)
 <use Images/Punto4/Arbol3.png>
 Package pdftex.def Info: Images/Punto4/Arbol3.png  used on input line 22.
@@ -1148,17 +1148,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38955 strings out of 475385
- 733467 string characters out of 2776907
- 1493901 words of memory out of 3000000
- 59664 multiletter control sequences out of 15000+600000
+ 38959 strings out of 475385
+ 733596 string characters out of 2776907
+ 1494078 words of memory out of 3000000
+ 59667 multiletter control sequences out of 15000+600000
  491230 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,8n,117p,762b,2395s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolE.enc} <C:\Users\manul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}<C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.pdf" (11 pages, 559823 bytes).
+Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.pdf" (11 pages, 561684 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -35,6 +35,14 @@
       \field{note}{Accessed: 2022-10-16}
       \field{title}{Codigo readAndHash}
     \endentry
+    \entry{arbolB}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/ManuelLatorre98/Disenio-de-algoritmos/tree/main/Informes/TPO1P2/Images/Punto4}}
+      \field{note}{Accessed: 2022-10-16}
+      \field{title}{Imagenes arbol B}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -1,0 +1,90 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[top= 2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue,
+    citecolor=blue
+    }
+\usepackage{graphicx}
+\usepackage[sorting=none]{biblatex} %Imports biblatex package
+\addbibresource{bibliography.bib} %Import the bibliography file
+
+
+\usepackage[breakable]{tcolorbox}
+\usepackage{enumerate}
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+\usepackage{todonotes}
+
+%SIMBOLOS
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{MnSymbol}
+\usepackage{wasysym}
+\usepackage{marvosym}
+
+\usepackage{amsthm}
+\setlength {\marginparwidth }{2cm}
+
+%LISTINGS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{comment}
+\usepackage{courier}
+%LISTING JAVA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{gray97}{gray}{.97}
+
+%usando lstdefinestyle {java}{otrasconf} se pueden usar varias diferentes, luego para usarlo \begin{lstlisting}[style=java]
+\lstdefinestyle{java}{frame=Ltb,
+    language=Java,
+    framerule=0pt,
+    rulesep=.4pt,
+    backgroundcolor=\color{gray97},
+    rulesepcolor=\color{black},
+    aboveskip=3mm,
+    belowskip=3mm,
+    showstringspaces=false,
+    columns=flexible,
+    basicstyle=\small\ttfamily,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{dkgreen},
+    stringstyle=\ttfamily\color{black},
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=3
+}
+\usepackage{caption}
+\DeclareCaptionFormat{listing}{\rule{\dimexpr\textwidth+0pt\relax}{0.4pt}\par\vskip1pt#1#2#3}
+\captionsetup[lstlisting]{format=listing,singlelinecheck=false, margin=0pt, font={sf},labelsep=space,labelfont=bf}
+
+\renewcommand\lstlistingname{Código}
+
+\DeclareMathVersion{sans}
+\SetSymbolFont{operators}{sans}{OT1}{cmbr}{m}{n}
+\SetSymbolFont{letters}  {sans}{OML}{cmbrm}{m}{it}
+\SetSymbolFont{symbols}  {sans}{OMS}{cmbrs}{m}{n}
+\lstnewenvironment{sflisting}[1][]
+  {\lstset{#1}\mathversion{sans}}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\input{caratula}
+\input{punto1.tex}
+\input{punto2.tex}
+\input{punto3.tex}
+\input{punto4.tex}
+
+\clearpage
+\printbibliography
+\end{document}
