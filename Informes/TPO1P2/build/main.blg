@@ -1,9 +1,16 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'build/main.blg'
-[168] biber-MSWIN64:340> INFO - === 
-[212] Biber.pm:418> INFO - Reading 'build/main.bcf'
-[358] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
-[377] bbl.pm:654> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[377] bbl.pm:757> INFO - Output to build/main.bbl
-[377] Biber.pm:130> WARN - The file 'build/main.bcf' does not contain any citations!
-[377] Biber.pm:132> INFO - WARNINGS: 1
+[144] biber-MSWIN64:340> INFO - === 
+[186] Biber.pm:418> INFO - Reading 'build/main.bcf'
+[331] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
+[349] Biber.pm:4401> INFO - Processing section 0
+[366] Biber.pm:4592> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[421] bibtex.pm:1713> INFO - LaTeX decoding ...
+[431] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[447] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[448] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[448] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[450] bbl.pm:654> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[451] bbl.pm:757> INFO - Output to build/main.bbl
+[451] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\manul\AppData\Local\Temp\biber_tmp_Y2fl\f4d088b3f9f145b5c3058da33afd57d4_65876.utf8, line 6, warning: 1 characters of junk seen at toplevel
+[451] Biber.pm:132> INFO - WARNINGS: 1

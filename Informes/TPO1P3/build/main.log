@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  4 NOV 2022 10:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  4 NOV 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO1P2/main.tex"
-(c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO1P2/main.tex
+**"c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO1P3/main.tex"
+(c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO1P3/main.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -927,7 +927,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.aux
+ (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -987,7 +987,7 @@ LaTeX Font Info:    ... okay on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 81.
-(c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.out) (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.out)
+(c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.out) (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1022,7 +1022,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.bbl)
+ (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 81.
 Package biblatex Info: Reference segment=0 on input line 81.
 LaTeX Info: Redefining \sptext on input line 81.
@@ -1044,19 +1044,19 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 13.
  (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<Images/Unco/faiLogo.png, id=22, 752.8125pt x 451.6875pt>
+<Images/Unco/faiLogo.png, id=14, 752.8125pt x 451.6875pt>
 File: Images/Unco/faiLogo.png Graphic file (type png)
 <use Images/Unco/faiLogo.png>
 Package pdftex.def Info: Images/Unco/faiLogo.png  used on input line 16.
 (pdftex.def)             Requested size: 376.40532pt x 225.84319pt.
-<Images/Unco/Unco logo.png, id=24, 225.84375pt x 229.60782pt>
+<Images/Unco/Unco logo.png, id=16, 225.84375pt x 229.60782pt>
 File: Images/Unco/Unco logo.png Graphic file (type png)
 <use Images/Unco/Unco logo.png>
 Package pdftex.def Info: Images/Unco/Unco logo.png  used on input line 18.
 (pdftex.def)             Requested size: 112.92159pt x 114.80362pt.
  [1
 
-{C:/Users/manul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Unco/faiLogo.png> <./Images/Unco/Unco logo.png>] (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.toc
+{C:/Users/manul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Unco/faiLogo.png> <./Images/Unco/Unco logo.png>] (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1070,95 +1070,66 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.25 \newpage
               [1]) (punto1.tex
-<Images/Punto1/Traza ordenamiento por conteo.png, id=43, 1197.72469pt x 559.33969pt>
-File: Images/Punto1/Traza ordenamiento por conteo.png Graphic file (type png)
-<use Images/Punto1/Traza ordenamiento por conteo.png>
-Package pdftex.def Info: Images/Punto1/Traza ordenamiento por conteo.png  used on input line 9.
-(pdftex.def)             Requested size: 1197.72177pt x 559.33832pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--25
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 26.
-(C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 28.
- [2 <./Images/Punto1/Traza ordenamiento por conteo.png>]) (punto2.tex [3]
-<Images/Punto2/Horspool Tabla.png, id=89, 624.08156pt x 343.2825pt>
-File: Images/Punto2/Horspool Tabla.png Graphic file (type png)
-<use Images/Punto2/Horspool Tabla.png>
-Package pdftex.def Info: Images/Punto2/Horspool Tabla.png  used on input line 15.
-(pdftex.def)             Requested size: 624.08003pt x 343.28165pt.
+<Images/Punto1/MatrizAdyacencia.png, id=33, 542.77782pt x 210.03468pt>
+File: Images/Punto1/MatrizAdyacencia.png Graphic file (type png)
+<use Images/Punto1/MatrizAdyacencia.png>
+Package pdftex.def Info: Images/Punto1/MatrizAdyacencia.png  used on input line 8.
+(pdftex.def)             Requested size: 542.77649pt x 210.03416pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Images/Punto2/Horspool traza.png, id=91, 690.32906pt x 606.01407pt>
-File: Images/Punto2/Horspool traza.png Graphic file (type png)
-<use Images/Punto2/Horspool traza.png>
-Package pdftex.def Info: Images/Punto2/Horspool traza.png  used on input line 24.
-(pdftex.def)             Requested size: 690.32738pt x 606.01259pt.
-[4 <./Images/Punto2/Horspool Tabla.png>]) (punto3.tex [5 <./Images/Punto2/Horspool traza.png>]
+<Images/Punto1/ListaAdyacencia.png, id=35, 549.55313pt x 374.14781pt>
+File: Images/Punto1/ListaAdyacencia.png Graphic file (type png)
+<use Images/Punto1/ListaAdyacencia.png>
+Package pdftex.def Info: Images/Punto1/ListaAdyacencia.png  used on input line 20.
+(pdftex.def)             Requested size: 549.55179pt x 374.14688pt.
+[2 <./Images/Punto1/MatrizAdyacencia.png>]) (punto2.tex [3 <./Images/Punto1/ListaAdyacencia.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Images/Punto3/ConsolaHashPalabra.png, id=108, 1407.00656pt x 209.28188pt>
-File: Images/Punto3/ConsolaHashPalabra.png Graphic file (type png)
-<use Images/Punto3/ConsolaHashPalabra.png>
-Package pdftex.def Info: Images/Punto3/ConsolaHashPalabra.png  used on input line 11.
-(pdftex.def)             Requested size: 1407.00314pt x 209.28134pt.
-[6 <./Images/Punto3/ConsolaHashPalabra.png>]) (punto4.tex [7]
-<Images/Punto4/Arbol1.png, id=152, 1270.7475pt x 613.54219pt>
-File: Images/Punto4/Arbol1.png Graphic file (type png)
-<use Images/Punto4/Arbol1.png>
-Package pdftex.def Info: Images/Punto4/Arbol1.png  used on input line 8.
-(pdftex.def)             Requested size: 1270.7444pt x 613.5407pt.
-<Images/Punto4/Arbol2.png, id=155, 1288.0622pt x 613.54219pt>
-File: Images/Punto4/Arbol2.png Graphic file (type png)
-<use Images/Punto4/Arbol2.png>
-Package pdftex.def Info: Images/Punto4/Arbol2.png  used on input line 15.
-(pdftex.def)             Requested size: 1288.05905pt x 613.5407pt.
-<Images/Punto4/Arbol3.png, id=158, 1401.73688pt x 288.3272pt>
-File: Images/Punto4/Arbol3.png Graphic file (type png)
-<use Images/Punto4/Arbol3.png>
-Package pdftex.def Info: Images/Punto4/Arbol3.png  used on input line 22.
-(pdftex.def)             Requested size: 1401.73347pt x 288.32648pt.
-) [8 <./Images/Punto4/Arbol1.png>] [9 <./Images/Punto4/Arbol2.png> <./Images/Punto4/Arbol3.png>]
-Overfull \hbox (32.79039pt too wide) in paragraph at lines 90--90
-[]\OT1/cmr/m/it/12 Traza de eje-cu-cion de or-de-na-mien-to por con-teo\OT1/cmr/m/n/12 . [][]$\OT1/pcr/m/n/12 https : / / github . com / ManuelLatorre98 /
- []
+<Images/Punto2/4 reinas.png, id=54, 1108.8928pt x 617.30624pt>
+File: Images/Punto2/4 reinas.png Graphic file (type png)
+<use Images/Punto2/4 reinas.png>
+Package pdftex.def Info: Images/Punto2/4 reinas.png  used on input line 11.
+(pdftex.def)             Requested size: 1108.8901pt x 617.30473pt.
+) [4 <./Images/Punto2/4 reinas.png>]
 
-[10
+LaTeX Warning: Empty bibliography on input line 88.
 
-] (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.aux
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 68.
+See the caption package documentation for explanation.
+
+(c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.aux
 LaTeX Info: Redefining \sptext on input line 23.
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3513C0F329EDAE3CAF5852AD121D7D9A;324.
+(rerunfilecheck)             Checksum: 88A49F42CAE7DA09790FD89FEB467A14;162.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38959 strings out of 475385
- 733596 string characters out of 2776907
- 1494078 words of memory out of 3000000
- 59667 multiletter control sequences out of 15000+600000
- 491230 words of font info for 105 fonts, out of 8000000 for 9000
+ 38195 strings out of 475385
+ 722641 string characters out of 2776907
+ 1427346 words of memory out of 3000000
+ 58995 multiletter control sequences out of 15000+600000
+ 488962 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,8n,117p,762b,2395s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolE.enc} <C:\Users\manul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}<C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P2\build\main.pdf" (11 pages, 561684 bytes).
+ 83i,7n,117p,1126b,1852s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}<C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.pdf" (5 pages, 442314 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
