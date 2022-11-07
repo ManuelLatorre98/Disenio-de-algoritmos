@@ -20,6 +20,15 @@ public class Criptografia {
     String w= alterEncryptMessage("SI",e, publicKey);
     System.out.println("Mensaje encriptado w: "+w);
     //PARTE DE ALICIA:
+    System.out.println();
+    System.out.println("ALICIA DESENCRIPTA");
+    int w1= charToNumber(w.charAt(0));
+    int w2= charToNumber(w.charAt(1));
+
+    int numericValueW= w1*27+w2;
+    //System.out.println(numericValueW);
+    System.out.println("Mensaje desencriptado: "+decryptMessageBueno(101,thetaN,numericValueW,publicKey));
+
     //decryptMessageBueno(e,thetaN,w,publicKey);
 
   }
@@ -91,14 +100,22 @@ public class Criptografia {
     return "";
   }
 
-  public static void decryptMessageBueno(long e, long thetaN, long y, long z){
+  public static String decryptMessageBueno(long e, long thetaN, long y, long z){
     long d = getD(e,thetaN);
     System.out.println("d: "+d);
 
     ExpoMod expoMod = new ExpoMod();
-    long decrypt = expoMod.exponent(y,d,z);
-    System.out.println("y: "+y+", d: "+d+", z: "+z);
-    System.out.println(decrypt);
+    long decryptNumber = expoMod.exponent(y,d,z);
+    /*System.out.println("y: "+y+", d: "+d+", z: "+z);
+    System.out.println(decryptNumber);*/
+
+    int secondCaract=  (int)decryptNumber%27;//y = x · 27 + z --> calcula z
+    int firstCaract= ((int)decryptNumber-secondCaract) /27;//x · 27 + z --> calcula x
+    //System.out.println("caract"+firstCaract);
+    return ""+ tablaEquiNum[firstCaract]+tablaEquiNum[secondCaract];//Mensaje encriptado pasado a texto
+
+    /*
+    */
 
   }
   public static long getE(long N, long thetaN){
