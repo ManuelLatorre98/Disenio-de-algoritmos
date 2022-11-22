@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  4 NOV 2022 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  10 NOV 2022 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1044,12 +1044,12 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 13.
  (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<Images/Unco/faiLogo.png, id=14, 752.8125pt x 451.6875pt>
+<Images/Unco/faiLogo.png, id=22, 752.8125pt x 451.6875pt>
 File: Images/Unco/faiLogo.png Graphic file (type png)
 <use Images/Unco/faiLogo.png>
 Package pdftex.def Info: Images/Unco/faiLogo.png  used on input line 16.
 (pdftex.def)             Requested size: 376.40532pt x 225.84319pt.
-<Images/Unco/Unco logo.png, id=16, 225.84375pt x 229.60782pt>
+<Images/Unco/Unco logo.png, id=24, 225.84375pt x 229.60782pt>
 File: Images/Unco/Unco logo.png Graphic file (type png)
 <use Images/Unco/Unco logo.png>
 Package pdftex.def Info: Images/Unco/Unco logo.png  used on input line 18.
@@ -1074,7 +1074,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<Images/Punto1/MatrizAdyacencia.png, id=33, 542.77782pt x 210.03468pt>
+<Images/Punto1/MatrizAdyacencia.png, id=43, 542.77782pt x 210.03468pt>
 File: Images/Punto1/MatrizAdyacencia.png Graphic file (type png)
 <use Images/Punto1/MatrizAdyacencia.png>
 Package pdftex.def Info: Images/Punto1/MatrizAdyacencia.png  used on input line 8.
@@ -1084,7 +1084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Images/Punto1/ListaAdyacencia.png, id=35, 549.55313pt x 374.14781pt>
+<Images/Punto1/ListaAdyacencia.png, id=45, 549.55313pt x 374.14781pt>
 File: Images/Punto1/ListaAdyacencia.png Graphic file (type png)
 <use Images/Punto1/ListaAdyacencia.png>
 Package pdftex.def Info: Images/Punto1/ListaAdyacencia.png  used on input line 20.
@@ -1094,14 +1094,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Images/Punto2/4 reinas.png, id=54, 1108.8928pt x 617.30624pt>
+<Images/Punto2/4 reinas.png, id=64, 1108.8928pt x 617.30624pt>
 File: Images/Punto2/4 reinas.png Graphic file (type png)
 <use Images/Punto2/4 reinas.png>
 Package pdftex.def Info: Images/Punto2/4 reinas.png  used on input line 11.
 (pdftex.def)             Requested size: 1108.8901pt x 617.30473pt.
-) [4 <./Images/Punto2/4 reinas.png>]
+) (punto3.tex [4 <./Images/Punto2/4 reinas.png>]
+<Images/Punto3/enunciado.png, id=71, 251.43938pt x 82.80937pt>
+File: Images/Punto3/enunciado.png Graphic file (type png)
+<use Images/Punto3/enunciado.png>
+Package pdftex.def Info: Images/Punto3/enunciado.png  used on input line 7.
+(pdftex.def)             Requested size: 251.43875pt x 82.80916pt.
+<Images/Punto3/Poda.png, id=73, 670.00313pt x 526.96875pt>
+File: Images/Punto3/Poda.png Graphic file (type png)
+<use Images/Punto3/Poda.png>
+Package pdftex.def Info: Images/Punto3/Poda.png  used on input line 19.
+(pdftex.def)             Requested size: 670.0015pt x 526.96745pt.
+) (punto4.tex [5 <./Images/Punto3/enunciado.png>]
+<Images/Punto4/HamiltoniaoNoEuleriano.png, id=82, 155.83218pt x 222.07968pt>
+File: Images/Punto4/HamiltoniaoNoEuleriano.png Graphic file (type png)
+<use Images/Punto4/HamiltoniaoNoEuleriano.png>
+Package pdftex.def Info: Images/Punto4/HamiltoniaoNoEuleriano.png  used on input line 19.
+(pdftex.def)             Requested size: 155.8318pt x 222.07913pt.
+<Images/Punto4/NoHamiltoniaoEuleriano.png, id=83, 251.43938pt x 317.68687pt>
+File: Images/Punto4/NoHamiltoniaoEuleriano.png Graphic file (type png)
+<use Images/Punto4/NoHamiltoniaoEuleriano.png>
+Package pdftex.def Info: Images/Punto4/NoHamiltoniaoEuleriano.png  used on input line 25.
+(pdftex.def)             Requested size: 251.43875pt x 317.68608pt.
+<Images/Punto4/HamiltoniaoEuleriano.png, id=84, 166.37157pt x 197.23688pt>
+File: Images/Punto4/HamiltoniaoEuleriano.png Graphic file (type png)
+<use Images/Punto4/HamiltoniaoEuleriano.png>
+Package pdftex.def Info: Images/Punto4/HamiltoniaoEuleriano.png  used on input line 30.
+(pdftex.def)             Requested size: 166.37114pt x 197.23637pt.
+<Images/Punto4/NoHamiltoniaoNoEuleriano.png, id=85, 164.86594pt x 214.55156pt>
+File: Images/Punto4/NoHamiltoniaoNoEuleriano.png Graphic file (type png)
+<use Images/Punto4/NoHamiltoniaoNoEuleriano.png>
+Package pdftex.def Info: Images/Punto4/NoHamiltoniaoNoEuleriano.png  used on input line 35.
+(pdftex.def)             Requested size: 164.86551pt x 214.55103pt.
+) [6 <./Images/Punto3/Poda.png>] [7 <./Images/Punto4/HamiltoniaoNoEuleriano.png> <./Images/Punto4/NoHamiltoniaoEuleriano.png> <./Images/Punto4/HamiltoniaoEuleriano.png>] [8 <./Images/Punto4/NoHamiltoniaoNoEuleriano.png>]
 
-LaTeX Warning: Empty bibliography on input line 88.
+LaTeX Warning: Empty bibliography on input line 89.
 
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 68.
@@ -1113,23 +1145,23 @@ LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 88A49F42CAE7DA09790FD89FEB467A14;162.
+(rerunfilecheck)             Checksum: FBCEF5DB937A456E400033BC74B07D39;324.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38195 strings out of 475385
- 722641 string characters out of 2776907
- 1427346 words of memory out of 3000000
- 58995 multiletter control sequences out of 15000+600000
+ 38271 strings out of 475385
+ 724765 string characters out of 2776907
+ 1427431 words of memory out of 3000000
+ 59041 multiletter control sequences out of 15000+600000
  488962 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,117p,1126b,1852s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}<C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.pdf" (5 pages, 442314 bytes).
+ 83i,8n,117p,1123b,1852s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}<C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.pdf" (9 pages, 521915 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
