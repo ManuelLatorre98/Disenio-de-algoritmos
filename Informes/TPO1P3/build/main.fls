@@ -1298,7 +1298,10 @@ INPUT .\Images\Punto1\ListaAdyacencia.png
 INPUT .\Images\Punto1\ListaAdyacencia.png
 INPUT .\Images\Punto1\ListaAdyacencia.png
 INPUT .\punto2.tex
+INPUT .\punto2.tex
+INPUT .\punto2.tex
 INPUT punto2.tex
+INPUT .\punto2.tex
 INPUT .\punto2.tex
 INPUT punto2.tex
 INPUT .\Images\Punto2\4 reinas.png
@@ -1308,11 +1311,68 @@ INPUT .\Images\Punto2\4 reinas.png
 INPUT .\Images\Punto2\4 reinas.png
 INPUT .\Images\Punto2\4 reinas.png
 INPUT .\Images\Punto2\4 reinas.png
+INPUT .\punto3.tex
+INPUT .\punto3.tex
+INPUT .\punto3.tex
+INPUT punto3.tex
+INPUT .\punto3.tex
+INPUT .\punto3.tex
+INPUT punto3.tex
+INPUT .\Images\Punto3\enunciado.png
+INPUT .\Images\Punto3\enunciado.png
+INPUT Images\Punto3\enunciado.png
+INPUT .\Images\Punto3\enunciado.png
+INPUT .\Images\Punto3\enunciado.png
+INPUT .\Images\Punto3\enunciado.png
+INPUT .\Images\Punto3\enunciado.png
+INPUT .\Images\Punto3\Poda.png
+INPUT .\Images\Punto3\Poda.png
+INPUT Images\Punto3\Poda.png
+INPUT .\Images\Punto3\Poda.png
+INPUT .\Images\Punto3\Poda.png
+INPUT .\Images\Punto3\Poda.png
+INPUT .\Images\Punto3\Poda.png
+INPUT .\punto4.tex
+INPUT .\punto4.tex
+INPUT .\punto4.tex
+INPUT punto4.tex
+INPUT .\punto4.tex
+INPUT .\punto4.tex
+INPUT punto4.tex
+INPUT .\Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoEuleriano.png
+INPUT Images\Punto4\HamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\HamiltoniaoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoNoEuleriano.png
+INPUT Images\Punto4\NoHamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoNoEuleriano.png
+INPUT .\Images\Punto4\NoHamiltoniaoNoEuleriano.png
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.aux
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.out
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.out
 INPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.run.xml
 OUTPUT c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO1P3\build\main.run.xml
+INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\mnsymbol\MnSymbolA.enc
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\mnsymbol\MnSymbolD.enc
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\mnsymbol\MnSymbolE.enc
 INPUT C:\Users\manul\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\mnsymbol\MnSymbolC.enc
