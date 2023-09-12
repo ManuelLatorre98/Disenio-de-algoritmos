@@ -1,0 +1,41 @@
+\section{Punto 2}
+\textit{Se le ha encomendado organizar un seminario para estudiantes ingresantes que se
+reunirá una vez por semana durante el próximo semestre. El plan es tener la primera
+porción del semestre consistente de una secuencia de l conferencias invitadas por
+oradores externos, y la segunda porción del semestre dedicada a la realización de una
+secuencia de p proyectos prácticos que los estudiantes desarrollarán.
+}
+
+\textit{Hay n opciones para los oradores en general, y en la semana número i ( para $i = 1,2,\ldots,l$ )un subconjunto de Li de estos oradores está disponible para dar la conferencia.
+}
+
+\textit{Por otro lado, cada proyecto requiere que los estudiantes hayan visto cierto material de
+base para que puedan completar el proyecto exitosamente. En particular, para cada proyecto j ( para $j = 1,2,\ldots,p$ ), existe un subconjunto Pj con oradores relevantes por lo que el estudiante necesita haber ido al menos una vez, a la conferencia de uno de esos oradores en el conjunto Pj para completar el proyecto.
+Dados estos conjuntos, ¿se puede seleccionar exactamente un orador para cada una de las l primeras semanas del seminario, de manera de elegir oradores que estén disponibles en la semana designada, y para que, para cada proyecto j, los estudiantes hayan visto al menos uno de los oradores en el conjunto de Pj relevante? Se denomina este enunciado como el Problema de la \underline{Planificación de Conferencia}.
+}
+
+\textit{Considerar la siguiente instancia de ejemplo. Se supone que l=2, y p=3. Y que existen n=4 oradores denotados A, B, C, D. La disponibilidad de los oradores está dada por los conjuntos $L_1={A,B,C}$ y $L_2={A,D}$. Los oradores relevantes para cada proyecto están dados por los conjuntos $P_1={B,C}$, $P_2={A,B,D}$ y $P_3={C,D}$. Para esta instancia la respuesta es SÍ, ya que se puede elegir al orador B en la primera semana y al orador D en la segunda; de esta manera, para cada uno de los tres proyectos, los estudiantes habrá visto a los oradores relevantes.
+}
+
+\textit{Enunciado}
+\begin{itemize}
+  \item \textit{Indicar por qué es un problema NP}
+  \item \textit{Encontrar un problema conocido NP-completo para poder reducir Coalición Sospechosa.}
+  \item \textit{Describir un algoritmo que en tiempo polinomial, realiza la reducción y probar su validez.}
+\end{itemize}
+
+El problema es NP porque, dado una secuencia de oradores, se puede verificar en tiempo polinómico que 
+  \begin{itemize}
+    \item Todos los oradores están disponibles en las semanas en las cuales fueron programados
+    \item Para cada proyecto, al menos uno o mas oradores relevantes fueron programados
+  \end{itemize}
+
+Al igual que en el primer punto, para el problema de la Planificación de la Conferencia se puede realizar una reducción a partir del problema Vertex Cover \cite{vertexCover}. Esto es debido a que se puede ver a Vertex Cover como una estructura similar de dos fases: primero se deben elegir un conjunto de k nodos del grafo de entrada, y entonces se debe verificar que para cada uno de dichos nodos se cubran todas sus aristas a las cuales están conectados.
+
+Dada una entrada de Vertex Cover que consiste en un grafo $G = (V, E)$ y un numero k, se creara un orador $z_v$ para cada nodo $v$. Se seteara $l = k$, y se define $L_1 = L_2 = \ldots = L_k = \{z_v: v \in V\}$. En otras palabras, para las primeras k semanas, todos los oradores estan disponibles. Despues de esto, se creara un projecto j para cada arista $e_j=(v, w)$, con un conjunto $P_j = \{z_v,z_w\}$
+
+Ahora, si existe un Vertex Cover S de a lo sumo k nodos, entonces se considerara el conjunto de oradores $Z_S = \{z_v : v \in S\}$. Para cada projecto $P_j$, al menos un orador relevante pertenecera a $Z_s$, donde S cubre todas las aristas de G. Es mas, se pueden programar todos los oradores en $Z_S$ durante las primeras k semanas. De este modo se plantea una solucion factible a una instancia del problema de la Planificación de Conferencia
+
+Por el contrario si se supone que existe una solucion factible para una instancia de Planificación de conferencia, y sea T el conjunto de todos los oradores que hablan en las primeras k semanas.
+Sea X el conjunto de nodos en G que corresponden a oradores en T. Para cada proyecto $P_j$, al menos uno de los dos oradores relevantes aparecen en T, y por lo tanto al menos un extremo de cada arista $e_j$ esta en el conjunto X. De este modo X es un Vertex Cover con al menos k nodos. Y asi concluye la prueba de que Vertex Cover es reducible en tiempo polinómico al problema de la  Planificación de Conferencia
+

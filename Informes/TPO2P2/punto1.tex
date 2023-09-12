@@ -1,0 +1,39 @@
+\section{Punto 1}
+\textit{Una pequeña empresa de tecnología realiza trabajos sensibles para lo cual mantiene un sistema de computadora de alta seguridad con el objeto de garantizar que el mismo no se utilice con algún fin ilícito. Para ello cuenta con software que registra las direcciones IP de los accesos de todos sus usuarios a través del tiempo.
+Se asume que cada usuario accede al menos a una dirección IP en algún minuto dado; el
+software registra en un archivo log lo siguiente:
+Para cada usuario u y cada minuto m, un valor I(u,m) es igual a la dirección IP accedida, si la hubiera. Si no, se setea con el símbolo |, que significa que el usuario u no accedió durante el minuto m.
+}
+
+\textit{Los directivos de la empresa han detectado que ayer, el sistema fue utilizado para lanzar un ataque complejo sobre algunos sitios remotos. El ataque fue llevado a cabo a partir de acceder a t direcciones IP distintas en t minutos consecutivos: en el minuto 1, el ataque accedió a la dirección $i_1$; en el minuto 2, accedió a la dirección $i_2$ ; y así para la dirección $i_t$ en el minuto t.}
+
+\textit{¿Quién pudo haber sido el responsable de llevar adelante el ataque? La empresa chequea los archivos logs y encuentra para su sorpresa que no existe un único usuario u que accedió a cada una de las direcciones IP involucradas en el tiempo t apropiado; en otras palabras, no existe un u tal que $I(u,m)=i_m$ para cada minuto m desde 1 hasta t.
+}
+
+\textit{La pregunta es: ¿Existió una pequeña \underline{coalición} de k usuarios que colectivamente podría haber llevado a cabo el ataque?}
+
+\textit{Se dice que un subconjunto S de usuarios es una coalición sospechosa si, para cada minuto m desde 1 hasta t, existe al menos un usuario $u \in S$ para el cual $I(u,m)=i_m$. (En otras palabras, cada IP fue accedido en el momento apropiado por al menos un usuario de la coalición).
+}
+
+\textit{El problema de Coalición Sospechosa pregunta: ¿Dado el conjunto de todos los valores $I(u,m)$, y un número k, existe una coalición sospechosa de al menos k de tamaño?
+}
+
+\textit{Enunciado}
+\begin{itemize}
+  \item \textit{Indicar por qué es un problema NP}
+  \item \textit{Encontrar un problema conocido NP-completo para poder reducir Coalición Sospechosa.}
+  \item \textit{Describir un algoritmo que en tiempo polinomial, realiza la reducción y probar su validez.}
+\end{itemize}
+
+El problema de la coalición sospechosa es NP ya que si se tiene un conjunto de S usuarios, se puede comprobar que S tiene un tamaño máximo de k usuarios, y por cada minuto m de 1 a t, al menos uno de los usuarios de S accedió a la dirección IP $i_m$. Finalmente se puede plantear un algoritmo que verifique en tiempo polinomico $O(k \cdot t)$ la existencia de al menos un usuario $u \in S$ para el cual $I(u,m)=i_m$ (Osea que al menos cada IP fue accedido en un determinado momento por al menos un usuario) verificando asi que el problema es NP.
+
+Para reducir el problema de Coalición Sospechosa se utilizara el problema NP-Completo Vertex Cover \cite{vertexCover}, esto es posible ya que se necesita explicar todos los t accesos sospechosos, y se tiene un limitado numero de usuarios (k) para hacer esto por lo que Vertex Cover se ajusta a las necesidades.
+
+En Vertex Cover se necesita cubrir cada arista, teniéndose permitidos k nodos. En coalición sospechosa se deberá ``cubrir'' todos los accesos, y solo se tienen permitidos k usuarios. Este paralelismo sugiere fuertemente que, dada una instancia de Vertex Cover que consiste en un grafo G(V, E) de k nodos, se puede construir una instancia de Coalición Sospechosa en donde los usuarios representan los nodos de G y los accesos sospechosos representan los vertices.
+
+Entonces a partir un grafo G de una instancia Vertex Cover de m aristas $e_1,\ldots, e_m$, y $e_j=(v_j, w_j)$. Se construirá una instancia de Coalición Sospechosa de la siguiente manera. Para cada nodo G se define un usuario, y para cada arista $e_t=(v_t,w_t)$ se definirá un minuto t (de esta manera se tendrán m minutos en total). En el minuto t, los usuarios asociados con dos extremos finales de $e_t$ acceden a una dirección IP $i_t$, y todos los otros usuarios no acceden a nada. Finalmente, el ataque consiste en accesos a direcciones $i_1,i_2,\ldots,i_m$ en minutos $1, 2,\ldots,m$ respectivamente.
+
+Lo planteado entonces establece que Vertex Cover es reducible en tiempo polinómico y por lo tanto finaliza la prueba de que Coalición sospechosa es NP-Completo.
+
+
+

@@ -16,5 +16,63 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{vertexCover}{article}{}
+      \name{author}{4}{}{%
+        {{hash=22f7d771950fe282580504b2cdd711d7}{%
+           family={Brešar},
+           familyi={B\bibinitperiod},
+           given={Boštjan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b8c206e69687847d9f85f6ec734dfb50}{%
+           family={Kardoš},
+           familyi={K\bibinitperiod},
+           given={František},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2150b1066ca2fb4bba76450b24690318}{%
+           family={Katrenič},
+           familyi={K\bibinitperiod},
+           given={Ján},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5f2c14b9eef01c954e99d18260984acb}{%
+           family={Semanišin},
+           familyi={S\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc367cb0abbb775ad51205e7d40b8962}
+      \strng{fullhash}{63ddfcdb0755a8ee15a343e48c4a7e1e}
+      \strng{bibnamehash}{dc367cb0abbb775ad51205e7d40b8962}
+      \strng{authorbibnamehash}{dc367cb0abbb775ad51205e7d40b8962}
+      \strng{authornamehash}{dc367cb0abbb775ad51205e7d40b8962}
+      \strng{authorfullhash}{63ddfcdb0755a8ee15a343e48c4a7e1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A subset S of vertices of a graph G is called a k-path vertex cover if every path of order k in G contains at least one vertex from S. Denote by ψk(G) the minimum cardinality of a k-path vertex cover in G. It is shown that the problem of determining ψk(G) is NP-hard for each k≥2, while for trees the problem can be solved in linear time. We investigate upper bounds on the value of ψk(G) and provide several estimations and exact values of ψk(G). We also prove that ψ3(G)≤(2n+m)/6, for every graph G with n vertices and m edges.}
+      \field{issn}{0166-218X}
+      \field{journaltitle}{Discrete Applied Mathematics}
+      \field{number}{12}
+      \field{title}{Minimum k-path vertex cover}
+      \field{volume}{159}
+      \field{year}{2011}
+      \field{pages}{1189\bibrangedash 1195}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.dam.2011.04.008
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0166218X11001387
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0166218X11001387
+      \endverb
+      \keyw{Algorithm,Path,Vertex cover,Dissociation number,Path vertex cover,NP-complete}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

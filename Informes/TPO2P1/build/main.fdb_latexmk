@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/main"] 1668711313 "build/main.bcf" "build/main.bbl" "build/main" 1668856474
-  "build/main.bcf" 1668856473 106381 f7310fa3e61f46a52f8c7423020f8983 "pdflatex"
+["biber build/main"] 1668711313 "build/main.bcf" "build/main.bbl" "build/main" 1669403678
+  "build/main.bcf" 1669403677 106381 f7310fa3e61f46a52f8c7423020f8983 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1668856465 "c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO2P1/main.tex" "build/main.pdf" "main" 1668856474
+["pdflatex"] 1669403670 "c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO2P1/main.tex" "build/main.pdf" "main" 1669403678
   "C:/Users/manul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1667399081 91096 fb8e325ef66407207b338e51172e52e3 ""
   "C:/Users/manul/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1667341294 10788010 cabb736fac517a21d0627c29559e9718 ""
   "C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -256,13 +256,13 @@
   "Images/Punto1/No permitidas.png" 1668708993 4272 bc492ee4dc10ccef9cc907b826babe6d ""
   "Images/Unco/Unco logo.png" 1661460218 71036 07a3c475dd7e1706d0e8963068635313 ""
   "Images/Unco/faiLogo.png" 1661460210 29253 ebed10ea7f07573184fe62b74119a2cd ""
-  "build/main.aux" 1668856473 2193 3024b83d56866518cb9bad4fe5238033 "pdflatex"
+  "build/main.aux" 1669403677 2193 3024b83d56866518cb9bad4fe5238033 "pdflatex"
   "build/main.bbl" 1668711315 486 ee04f40f768daeed26442158e95aba61 "biber build/main"
-  "build/main.out" 1668856473 81 0f8ab6f38600220c2e9482ef917c5207 "pdflatex"
-  "build/main.run.xml" 1668856473 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
-  "build/main.toc" 1668856473 93 d8a691a74e521537081bea3498a651ec "pdflatex"
+  "build/main.out" 1669403677 81 0f8ab6f38600220c2e9482ef917c5207 "pdflatex"
+  "build/main.run.xml" 1669403677 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
+  "build/main.toc" 1669403677 93 d8a691a74e521537081bea3498a651ec "pdflatex"
   "c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO2P1/main.tex" 1668709112 2422 a198e34b40e0e14e40e7fd5267aaf154 ""
-  "caratula.tex" 1668270837 616 1b33175e6d50525caecd37afaf8247c3 ""
+  "caratula.tex" 1669403669 626 22ad23174774a0b8d3f0cb2464b5ed71 ""
   "main.tex" 1668709112 2422 a198e34b40e0e14e40e7fd5267aaf154 ""
   "punto1.tex" 1668856454 13025 36f0759643b581e33a94312f9795bd92 ""
   (generated)

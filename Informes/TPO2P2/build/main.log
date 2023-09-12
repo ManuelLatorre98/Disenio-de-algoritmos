@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  18 NOV 2022 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  25 NOV 2022 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/manul/Desktop/Plantilla Latex/main.tex"
-(c:/Users/manul/Desktop/Plantilla Latex/main.tex
+**"c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO2P2/main.tex"
+(c:/Users/manul/Desktop/Diseño de algoritmos/Disenio-de-algoritmos/Informes/TPO2P2/main.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -927,7 +927,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\manul\Desktop\Plantilla Latex\build\main.aux
+ (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -987,7 +987,7 @@ LaTeX Font Info:    ... okay on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 81.
-(c:\Users\manul\Desktop\Plantilla Latex\build\main.out) (c:\Users\manul\Desktop\Plantilla Latex\build\main.out)
+(c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.out) (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1022,7 +1022,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\manul\Desktop\Plantilla Latex\build\main.bbl)
+ (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 81.
 Package biblatex Info: Reference segment=0 on input line 81.
 LaTeX Info: Redefining \sptext on input line 81.
@@ -1044,19 +1044,19 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 13.
  (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<Images/Unco/faiLogo.png, id=6, 752.8125pt x 451.6875pt>
+<Images/Unco/faiLogo.png, id=14, 752.8125pt x 451.6875pt>
 File: Images/Unco/faiLogo.png Graphic file (type png)
 <use Images/Unco/faiLogo.png>
 Package pdftex.def Info: Images/Unco/faiLogo.png  used on input line 16.
 (pdftex.def)             Requested size: 376.40532pt x 225.84319pt.
-<Images/Unco/Unco logo.png, id=8, 225.84375pt x 229.60782pt>
+<Images/Unco/Unco logo.png, id=16, 225.84375pt x 229.60782pt>
 File: Images/Unco/Unco logo.png Graphic file (type png)
 <use Images/Unco/Unco logo.png>
 Package pdftex.def Info: Images/Unco/Unco logo.png  used on input line 18.
 (pdftex.def)             Requested size: 112.92159pt x 114.80362pt.
  [1
 
-{C:/Users/manul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Unco/faiLogo.png> <./Images/Unco/Unco logo.png>] (c:\Users\manul\Desktop\Plantilla Latex\build\main.toc
+{C:/Users/manul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Unco/faiLogo.png> <./Images/Unco/Unco logo.png>] (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1069,37 +1069,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.25 \newpage
-              [1])
-
-LaTeX Warning: Empty bibliography on input line 84.
-
+              [1]) (punto1.tex [2]) (punto2.tex [3])
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 86.
+ (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 86.
+ (C:\Users\manul\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 67.
 See the caption package documentation for explanation.
 
-(c:\Users\manul\Desktop\Plantilla Latex\build\main.aux
+[4] (c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.aux
 LaTeX Info: Redefining \sptext on input line 23.
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 88A49F42CAE7DA09790FD89FEB467A14;162.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38080 strings out of 475385
- 719647 string characters out of 2776907
- 1421032 words of memory out of 3000000
- 58918 multiletter control sequences out of 15000+600000
- 479185 words of font info for 63 fonts, out of 8000000 for 9000
+ 38436 strings out of 475385
+ 727149 string characters out of 2776907
+ 1432093 words of memory out of 3000000
+ 59231 multiletter control sequences out of 15000+600000
+ 490225 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,117p,718b,1796s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "c:\Users\manul\Desktop\Plantilla Latex\build\main.pdf" (2 pages, 107957 bytes).
+ 83i,7n,117p,762b,1852s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymbolE.enc} <C:\Users\manul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/manul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on "c:\Users\manul\Desktop\Diseño de algoritmos\Disenio-de-algoritmos\Informes\TPO2P2\build\main.pdf" (5 pages, 236222 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 39 words of extra memory for PDF output out of 10000 (max. 10000000)
 
